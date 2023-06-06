@@ -1,0 +1,18 @@
+html {
+  color-scheme: light dark;
+}
+
+body {
+  font-family: 'Fira Code', system-ui, 'sans-serif';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+img,
+svg,
+video {
+  width: 100%;
+  display: block;
+}

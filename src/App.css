@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.amount-currency-wrapper {
+    max-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
