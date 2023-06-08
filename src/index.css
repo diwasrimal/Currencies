@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: 'Fira Code', system-ui, 'sans-serif';
+  font-family: "Fira Code", system-ui, "sans-serif";
   display: flex;
   align-items: center;
   justify-content: center;

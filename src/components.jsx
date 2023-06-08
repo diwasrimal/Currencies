@@ -26,7 +26,11 @@ export function AmountBox({ amount, changeHandler, isInitialAmount }) {
 
 export function CurrencySelector({ currency, setCurrency, currencies }) {
   return (
-    <select className="currency-selector" value={currency} onChange={(e) => setCurrency(e.target.value)}>
+    <select
+      className="currency-selector"
+      value={currency}
+      onChange={(e) => setCurrency(e.target.value)}
+    >
       {currencies.map((c, i) => (
         <option key={i}>{c}</option>
       ))}
